@@ -1,0 +1,298 @@
+:root{
+    --main-color:#009AD8;
+    --secondary-color: #9EA0A8;
+    --third--color:#1E202B;
+    --footer-color:#323544;
+}
+* {
+    box-sizing: border-box;
+}
+
+.footer-color{
+   background-color: var(--footer-color);
+}
+.main-color{
+    color: var(--main-color);
+}
+
+
+.secondary-color{
+color: var(--secondary-color);
+}
+
+
+.text-logo{
+    vertical-align: middle;
+}
+
+.hight{
+    height:120%;
+}
+
+.navbar{
+   background-color: var(--third--color);
+   padding: 40px 0;
+}
+body{
+    background-color: var(--third--color);
+    font-family: "Open Sans", sans-serif;
+   
+}
+.fs-14{
+    font-size: 14px;
+}
+
+.navbar-toggler {
+color:unset;
+transition: all 0.5s;
+border: unset;
+box-shadow: unset;
+}
+.navbar-toggler:hover{
+    color: var(--main-color);
+}
+
+
+small{
+    font-size: 10px;
+    color: #bfc1c8;
+}
+
+.navbar-nav a{
+   border: solid 2px transparent;
+  transition: all 0.5s;
+    font-size: 14px;
+    border-radius: 30px;
+    padding:2px 25px;
+    color: white;
+ 
+}
+
+.navbar-nav a:hover
+{
+border-color: var(--main-color);
+color: var(--main-color);
+}
+
+
+.navbar-nav.active{
+    border-color: var(--main-color);
+color: var(--main-color);
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+ 
+.navbar-nav .nav-link.active:hover{
+    color: var(--main-color);
+}
+
+.header{
+    background-image: url(././../img/banner.png);
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+.header .form-control{
+    background-color:var(--third--color) ;
+}
+.form-control{
+    padding: 18px 50px 18px 20px;
+    border-color:var(--third--color) ;
+    border-radius:30px ;
+    background-color:var(--third--color) ;
+    color: white;
+}
+
+.form-control::placeholder{
+    color:#595A5D;
+}
+.form-control:focus{
+    color:white;
+    background-color:var(--third--color);
+    border-color:var(--third--color);
+    box-shadow: unset;
+}
+
+
+.input .btn{
+    --bs-btn-padding-x:40px;
+    --bs-btn-padding-y:10px;
+    --bs-btn-border-radius:30px;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+.row>* {
+    padding-right:unset;
+    padding-left:unset;
+    
+
+   
+   
+}
+
+
+
+
+.table-weather .row{
+    bottom: 160px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.todayWeather{
+    background-color: #323544;
+    border-top-left-radius:8px ;
+    border-bottom-left-radius:8px ;
+    
+   
+   
+}
+
+ .second-header{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+
+
+.font-b{
+    font-size: 14px;
+    color:var(--secondary-color);
+}
+
+
+.body-todayWeather .font-b{
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+
+.body-todayWeather .degree{
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+}
+
+.body-todayWeather sub{
+    bottom: 40px;
+}
+
+.body-todayWeather .icon img{
+    width: 90px;
+}
+
+.condition div{
+    margin: 20px 0;
+}
+
+
+.tomorrow-weather{
+    background-color: #262936;
+   
+}
+
+.body-tomorrow{
+    padding: 50px 20px 10px;
+}
+.bottom-sub{
+    bottom: 10px;
+}
+.after-tomorrow{
+    background-color: #323544;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius:8px ;
+   
+}
+.body-after{
+    padding: 50px 20px 10px;
+}
+
+.footer .input .btn{
+    --bs-btn-padding-x:40px;
+    --bs-btn-padding-y:10px;
+    --bs-btn-border-radius:30px;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+.icon-footer i{
+    font-size: 20px;
+    color: var(--main-color);
+    background-color: var(--third--color);
+    width: 40px;
+    height:40px ;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.icon-footer i:hover{
+background-color: var(--main-color);
+color: white;
+}
+
+/* contact-section */
+.home-contact{
+    background-color: var(--footer-color);
+    border-radius: 40px;
+    padding: 20px 30px;
+}
+
+.home-contact a{
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.home-contact a:hover{
+    text-decoration: underline;
+}
+
+.contact-form{
+    padding: 70px 0;
+}
+
+.contact-details{
+    background-color: var(--footer-color);
+    border-radius: 10px;
+}
+.map{
+    height: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.contact-us .col-md-6 .form-control{
+    background-color: transparent;
+    border: solid 2px var(--footer-color);
+    width:90%;
+    height: 80%;
+   transition: all 0.5s;
+}
+
+.contact-us .form-control:hover{
+    border: solid 2px var(--main-color);
+}
+.contact-us .form-control:focus{
+    border: solid 2px var(--main-color);
+}
+
+.textarea{
+    width: 95%;
+    border: solid 2px var(--footer-color);
+}
+.contact-us .btn{
+    --bs-btn-padding-x: 0.90rem;
+    --bs-btn-padding-y: 0.375rem;
+    border-radius: 30px;
+}
+
+.contact-us button{
+    left:  82%;
+}

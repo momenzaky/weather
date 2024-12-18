@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="Logo">
+                <div class="text-logo d-inline-block ps-1">
+                    <h6 class="text-white">Weather</h6>
+                    <small class="d-block">tagline goes here</small>
+                </div>
+
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active mx-3  " aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link mx-3 " href="#">News</a>
+                    <a class="nav-link mx-3 " href="#">Live cameras</a>
+                    <a class="nav-link mx-3 " href="#">Photos</a>
+                    <a class="nav-link mx-3 " href="contact.html">Contact</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="header position-relative ">
+        <div class="container">
+            <div class="input position-relative">
+                <input class="form-control search" type="text" placeholder="Find Your Location..."
+                    aria-label="default input example" id="search">
+                <button class="btn btn-primary position-absolute" id="find-btn">Find</button>
+            </div>
+        </div>
+    </section>
+    <section class="wether">
+        <div class="container ">
+            <div class="table-weather all-cards">
+               
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <footer class="footer-color py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="input position-relative">
+                        <input class="form-control search" type="text" placeholder="Find Your Location..."
+                            aria-label="default input example" id="search">
+                        <button class="btn btn-primary position-absolute">Subscribe</button>
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="icon-footer d-flex justify-content-center align-items-center mt-2">
+                        <i
+                            class="fa-brands fa-facebook-f d-flex justify-content-center align-items-center rounded-circle  me-1"></i>
+                        <i
+                            class="fa-brands fa-twitter d-flex justify-content-center align-items-center rounded-circle  me-1"></i>
+                        <i
+                            class="fa-brands fa-google-plus-g d-flex justify-content-center align-items-center rounded-circle  me-1"></i>
+                        <i
+                            class="fa-brands fa-pinterest d-flex justify-content-center align-items-center rounded-circle  me-1"></i>
+
+                    </div>
+
+                </div>
+                <div class="copy-right">
+                    <p class="secondary-color fs-14 mt-4">Copyright 2014 Company name. Designed by Themezy. All rights
+                        reserved</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
+
+

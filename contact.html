@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compass Starter</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="Logo">
+                <div class="text-logo d-inline-block ps-1">
+                    <h6 class="text-white">Company name</h6>
+                    <small class="d-block">tagline goes here</small>
+                </div>
+
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active mx-3  " aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link mx-3 " href="#">News</a>
+                    <a class="nav-link mx-3 " href="#">Live cameras</a>
+                    <a class="nav-link mx-3 " href="#">Photos</a>
+                    <a class="nav-link mx-3 " href="contact.html">Contact</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="contact-header ">
+        <div class="container">
+            <div class="home-contact ">
+                <a href="index.html" class="fs-14 secondary-color">Home </i></span> </a>
+                <span><i class="fa-solid fa-arrow-right ms-2 fs-14 secondary-color"></i>
+                    <span class="ms-2 text-white fs-14">contact</span>
+            </div>
+            <div class="contact-form">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="contact-details ">
+                            <div class="map"></div>
+                            <div class="contact-info p-3">
+                                <address class="d-flex  align-items-center">
+                                    <i class="fa-solid fa-location-dot fs-5 main-color"></i>
+                                    <p class="mb-0 fs-14 ms-2 secondary-color">Company Name INC.
+                                        <br>
+                                        2803 Avenue Street, Los Angeles
+                                    </p>
+                                </address>
+                                <div class="phone-email d-flex align-items-center">
+                                    <div class="phone">
+                                        <i class="fa-solid fa-phone fs-5 main-color"></i>
+                                        <a href="tel:+1 800 314 235"
+                                            class=" fw-medium secondary-color text-decoration-none ms-1 fs-14">+1 800
+                                            314 235</a>
+                                    </div>
+                                    <div class="email ms-3">
+                                        <i class="fa-solid fa-envelope fs-5 main-color"></i>
+                                        <a href="mailto:contact@companyname.com
+                                        " class=" fw-medium secondary-color text-decoration-none ms-1 fs-14 ">contact@companyname.com
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6  offset-1">
+                        <div class="contact-us">
+                            <div class="header-contact-us">
+                                <h2 class="text-white fs-2 mb-2">Contact us</h2>
+                                <p class="secondary-color fs-14 mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <input class="form-control " type="text" placeholder="Your name..." aria-label="default input example">
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-control " type="text" placeholder="Email Address..." aria-label="default input example">
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-md-6">
+                                    <input class="form-control " type="text" placeholder="Company name..." aria-label="default input example">
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-control " type="text" placeholder="Website..." aria-label="default input example">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea  id="userMessage" name="userMessage" rows="6" placeholder="Message" class="form-control bg-form textarea " ></textarea>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <button class="btn btn-primary mt-2 fs-14  text-center position-relative submit" id="submit" onclick="clear()">Submit</button>
+                                
+                            </div>
+                            </div>
+                           
+                         
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer-color py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="input position-relative">
+                        <input class="form-control search" type="text" placeholder="Find Your Location..."
+                            aria-label="default input example" id="search">
+                        <button class="btn btn-primary position-absolute">Subscribe</button>
+                    </div>
+                  
+                </div>
+                <div class="col-lg-4">
+                <div class="icon-footer d-flex justify-content-center align-items-center mt-2">
+                   <i
+                        class="fa-brands fa-facebook-f d-flex justify-content-center align-items-center rounded-circle  me-1"></i>
+                    <i
+                    class="fa-brands fa-twitter d-flex justify-content-center align-items-center rounded-circle  me-1"></i>
+                    <i
+                    class="fa-brands fa-google-plus-g d-flex justify-content-center align-items-center rounded-circle  me-1"></i>
+                    <i
+                    class="fa-brands fa-pinterest d-flex justify-content-center align-items-center rounded-circle  me-1"></i>
+                   
+                </div>
+                   
+                </div>
+                <div class="copy-right">
+                    <p class="secondary-color fs-14 mt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+   
+</body>
+</html>
